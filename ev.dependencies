@@ -1,0 +1,220 @@
+[
+  {
+    "repository": "android_device_google_gs-common",
+    "target_path": "device/google/gs-common"
+  },
+  {
+    "repository": "android_kernel_google_gs201",
+    "target_path": "kernel/google/gs201/private/gs-google"
+  },
+  {
+    "repository": "kernel/devices/google/bluejay",
+    "target_path": "kernel/google/gs201/private/devices/google/bluejay,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/devices/google/felix",
+    "target_path": "kernel/google/gs201/private/devices/google/felix,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/devices/google/lynx",
+    "target_path": "kernel/google/gs201/private/devices/google/lynx,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/devices/google/tangorpro",
+    "target_path": "kernel/google/gs201/private/devices/google/tangorpro,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/amplifiers",
+    "target_path": "kernel/google/gs201/private/google-modules/amplifiers,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/aoc",
+    "target_path": "kernel/google/gs201/private/google-modules/aoc,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/aoc-ipc",
+    "target_path": "kernel/google/gs201/private/google-modules/aoc_ipc,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/bluetooth/broadcom",
+    "target_path": "kernel/google/gs201/private/google-modules/bluetooth/broadcom,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/bluetooth/qcom",
+    "target_path": "kernel/google/gs201/private/google-modules/bluetooth/qcom,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/bluetooth/synaptics",
+    "target_path": "kernel/google/gs201/private/google-modules/bluetooth/synaptics,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/bms",
+    "target_path": "kernel/google/gs201/private/google-modules/bms,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "target_path": "kernel/google/gs201/private/google-modules/display",
+    "repository": "kernel/google-modules/display",,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "target_path": "kernel/google/gs201/private/google-modules/edgetpu/abrolhos",
+    "repository": "kernel/google-modules/edgetpu/abrolhos",,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "target_path": "kernel/google/gs201/private/google-modules/edgetpu/janeiro",
+    "repository": "kernel/google-modules/edgetpu/janeiro",,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "target_path": "kernel/google/gs201/private/google-modules/fingerprint/fpc",
+    "repository": "kernel/google-modules/fingerprint/fpc",,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/gpu",
+    "target_path": "kernel/google/gs201/private/google-modules/gpu",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/gxp/gs201",
+    "target_path": "kernel/google/gs201/private/google-modules/gxp/gs201",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/lwis",
+    "target_path": "kernel/google/gs201/private/google-modules/lwis",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/nfc",
+    "target_path": "kernel/google/gs201/private/google-modules/nfc,
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/power/reset",
+    "target_path": "kernel/google/gs201/private/google-modules/power/reset",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/sensors/hall_sensor",
+    "target_path": "kernel/google/gs201/private/google-modules/sensors/hall_sensor",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/touch/common",
+    "target_path": "kernel/google/gs201/private/google-modules/touch/common",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/touch/focaltech_touch",
+    "target_path": "kernel/google/gs201/private/google-modules/touch/focaltech",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/touch/fts_touch",
+    "target_path": "kernel/google/gs201/private/google-modules/touch/fts",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/touch/goodix_touch",
+    "target_path": "kernel/google/gs201/private/google-modules/touch/goodix",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/touch/novatek_touch",
+    "target_path": "kernel/google/gs201/private/google-modules/touch/novatek",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/touch/sec_touch",
+    "target_path": "kernel/google/gs201/private/google-modules/touch/sec",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/touch/synaptics_touch",
+    "target_path": "kernel/google/gs201/private/google-modules/touch/synaptics",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/uwb",
+    "target_path": "kernel/google/gs201/private/google-modules/uwb",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/video/gchips",
+    "target_path": "kernel/google/gs201/private/google-modules/video/gchips",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/wlan/bcmdhd/bcm4389",
+    "target_path": "kernel/google/gs201/private/google-modules/wlan/bcmdhd4389",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/wlan/syna/dhd43752p",
+    "target_path": "kernel/google/gs201/private/google-modules/wlan/dhd43752p",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/wlan/qcom/wcn6740/cnss2",
+    "target_path": "kernel/google/gs201/private/google-modules/wlan/wcn6740/cnss2",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/wlan/qcom/wcn6740/wlan",
+    "target_path": "kernel/google/gs201/private/google-modules/wlan/wcn6740/wlan",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  },
+  {
+    "repository": "kernel/google-modules/wlan/wlan_ptracker",
+    "target_path": "kernel/google/gs201/private/google-modules/wlan/wlan_ptracker",
+    "remote": "aosp",
+    "branch": "android-gs-pantah-5.10-android14"
+  }
+]
