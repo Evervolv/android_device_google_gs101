@@ -11,11 +11,6 @@ DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-ev
 PRODUCT_COPY_FILES += \
     device/google/gs101/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
 
-# APEX
-OVERRIDE_TARGET_FLATTEN_APEX := false
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.apex.updatable=true
-
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
