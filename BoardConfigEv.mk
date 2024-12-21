@@ -10,7 +10,10 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT := true
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
 
 # Manifests
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    hardware/evervolv/interfaces/compatibility_matrices/compatibility_matrix.evervolv.xml \
+    hardware/lineage/interfaces/compatibility_matrices/compatibility_matrix.lineage.xml
+
 DEVICE_MANIFEST_FILE += device/google/gs101/manifest_radio.xml
 
 # Partitions
@@ -33,7 +36,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor
 
 # Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include $(SRC_EVERVOLV_DIR)/build/target/board/BoardConfigReservedSize.mk
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
