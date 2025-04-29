@@ -4,11 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE := true
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT := true
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
-
 # Manifests
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/evervolv/interfaces/compatibility_matrices/compatibility_matrix.evervolv.xml \
